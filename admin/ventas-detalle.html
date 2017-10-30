@@ -7,6 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <!-- Custom styles for this template -->
+            <link href="../css/custom.css" rel="stylesheet">
       <link href="../css/dashboard.css" rel="stylesheet">
 
   </head>
@@ -43,7 +44,7 @@
               <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
                 <ul class="nav nav-pills flex-column">
                   <li class="nav-item">
-                    <a class="nav-link active" href="perfil.html">Operador <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="#">Operador <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="empresas.html">Empresas</a>
@@ -62,29 +63,30 @@
               <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
                 <h1>Dashboard</h1>
 
-                <section class="row text-center placeholders">
-                  <div class="col-6 col-sm-3 placeholder">
-                  <a href="perfil.html">  <img src="../img/icono-perfil.png" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
-                    <h4>Perfil</h4> </a>
-                    <div class="text-muted">Something else</div>
-                  </div>
-                      <a href="empresas.html"><div class="col-6 col-sm-3 placeholder">
-                    <img src="../img/icono-empresas.png" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
-                    <h4>Empresas</h4> </a>
-                    <span class="text-muted">Something else</span>
-                  </div>
-                      <a href="ventas.html"><div class="col-6 col-sm-3 placeholder">
-                    <img src="../img/icono-ventas.png" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
-                    <h4>Ventas</h4> </a>
-                    <span class="text-muted">Something else</span>
-                  </div>
-                      <a href="#"><div class="col-6 col-sm-3 placeholder">
-                    <img src="../img/icono-reportes.png" width="200" height="200" class="img-fluid" alt="Generic placeholder thumbnail">
-                    <h4>Reportes</h4> </a>
-                    <span class="text-muted">Something else</span>
-                  </div>
-                </section>
 
+
+                <h2>Empresas > Detalles de la empresa</h2>
+                <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-3"></div>
+                  <div class="col-md-3 text-right"><a role="button" href="ventas.html" class="btn btn-primary">Volver</a></div>
+                  <div class="col-md-3"><a role="button" href="ventas-editar.html" class="btn btn-primary">Editar</a></div>
+                </div>
+
+                <div class="row mt2em">
+                  <div class="col-9">
+                      <ul class="list-group">
+                        <li class="list-group-item">Ventas: 100.000</li>
+                        <li class="list-group-item">Ventas Acumuladas: 300.000</li>
+                        <li class="list-group-item">Efectivo: 50.000</li>
+                        <li class="list-group-item">Tarjeta Bancaria: 111111111</li>
+                        <li class="list-group-item">Produccion: 70.000 </li>
+                        <li class="list-group-item">Produccion acumulada: 140.000</li>
+                        <li class="list-group-item">Clientes: 3</li>
+                        <li class="list-group-item">Clientes acumulados: 12</li>
+                      </ul>
+                  </div>
+                </div>
 
               </main>
             </div>
